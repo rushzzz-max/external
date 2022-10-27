@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="entry.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="offsets.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="encrypt.h">
+      <Filter>library</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="cache.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="core.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="visuals.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>game\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>game\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="transform.h">
+      <Filter>game\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="unity.h">
+      <Filter>game\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="local.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h" />
+    <ClInclude Include="menu.h" />
+    <ClInclude Include="features.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_assembly.h">
+      <Filter>game\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="system.h">
+      <Filter>game\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="base_entity.h">
+      <Filter>game\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="convar_client.h">
+      <Filter>game\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="tod_sky.h">
+      <Filter>game\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="skinnable.h">
+      <Filter>game\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="aim.h">
+      <Filter>game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="game">
+      <UniqueIdentifier>{17ec05d2-afdc-42a4-b4fa-8c77e85cbcc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{f04b3fff-a9e9-4421-b3af-0734e079dfe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library">
+      <UniqueIdentifier>{832efa44-4fc7-447e-9830-a2d45859de70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\classes">
+      <UniqueIdentifier>{6b5113fc-7589-4887-bac7-31a4e4d6a2f7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

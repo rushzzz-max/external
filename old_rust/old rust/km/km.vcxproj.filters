@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="entry.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="interface.h" />
+    <ClInclude Include="cleaning.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="crt.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="encrypt.h">
+      <Filter>library</Filter>
+    </ClInclude>
+    <ClInclude Include="definitions.h">
+      <Filter>library</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="handler.h" />
+    <ClInclude Include="win32k.h">
+      <Filter>win32k</Filter>
+    </ClInclude>
+    <ClInclude Include="physical.h">
+      <Filter>library</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="utils">
+      <UniqueIdentifier>{ea5da839-5ba8-4b48-9531-5e8481ec2fd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library">
+      <UniqueIdentifier>{96e4a731-259c-4429-a774-10e6ccfd83d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32k">
+      <UniqueIdentifier>{500c8941-f423-41d3-bb63-20b69aa12877}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
